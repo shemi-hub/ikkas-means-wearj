@@ -30,7 +30,13 @@
 /* Template default CSS
 /*----------------------------------------*/
 
-html,
+html,:root {
+  --primary-color: #111111;
+  --secondary-color: #c8a96a;
+  --background-color: #f9f6f1;
+  --text-color: #222222;
+}
+
 body {
 	height: 100%;
 	font-family: "Nunito Sans", sans-serif;
